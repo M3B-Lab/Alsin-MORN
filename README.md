@@ -2,7 +2,7 @@ Repository containing the files regarding the study:
 
 ## Conformational Dynamics and Molecular Characterization of Alsin MORN monomer and dimeric assemblies
 
-<i>Marcello Miceli<sup>1</sup>, Marco Cannariato<sup>1</sup>, Riccardo Tortarolo<sup>1</sup>, Lorenzo Pallante<sup>1</sup>, Eric A. Zizzi<sup>1</sup> and Marco A. Deriu<sup>1*</sup> and   </i>
+<i>Marcello Miceli<sup>1</sup>, Marco Cannariato<sup>1</sup>, Riccardo Tortarolo<sup>1</sup>, Lorenzo Pallante<sup>1</sup>, Eric A. Zizzi<sup>1</sup> and Marco A. Deriu<sup>1*</sup> </i>
 
 <font size=2> <sup>1</sup>Polito<sup>BIO</sup>Med Lab, Department of Mechanical and Aerospace Engineering, Politecnico di Torino, 10129, Turin, Italy\
 </font>
