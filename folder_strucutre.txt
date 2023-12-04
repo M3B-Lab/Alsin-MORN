@@ -1,0 +1,48 @@
+Alsin-MORN
+├── folder_strucutre.txt
+├── LICENSE
+├── MDP
+│   ├── em.mdp
+│   ├── ions.mdp
+│   ├── md.mdp
+│   ├── npt.mdp
+│   └── nvt.mdp
+├── README.md
+├── SimulationInput
+│   ├── A-MORN
+│   │   ├── rep1
+│   │   │   └── md.tpr
+│   │   ├── rep2
+│   │   │   └── md.tpr
+│   │   └── rep3
+│   │       └── md.tpr
+│   ├── L-ALSIN
+│   │   ├── rep1
+│   │   ├── rep2
+│   │   └── rep3
+│   ├── rep1
+│   │   └── md.trr
+│   └── V-ALSIN
+│       ├── rep1
+│       ├── rep2
+│       └── rep3
+└── Topologies
+    ├── A-MORN
+    │   ├── posre.itp
+    │   └── topol.top
+    ├── L-ALSIN
+    │   ├── posre_Protein2.itp
+    │   ├── posre_Protein.itp
+    │   ├── topol_Protein2.itp
+    │   ├── topol_Protein.itp
+    │   └── topol.top
+    └── V-ALSIN
+        ├── posre_Ion.itp
+        ├── posre_Protein_chain_A.itp
+        ├── posre_Protein_chain_B.itp
+        ├── topol_Ion.itp
+        ├── topol_Protein_chain_A.itp
+        ├── topol_Protein_chain_B.itp
+        └── topol.top
+
+19 directories, 26 files

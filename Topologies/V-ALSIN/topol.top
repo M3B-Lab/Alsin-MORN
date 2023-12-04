@@ -1,0 +1,49 @@
+;
+;	File 'topol.top' was generated
+;	By user: marcello (1000)
+;	On host: marcello-A51M
+;	At date: Mon Mar 14 19:15:10 2022
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2020.3 (-:
+;	
+;	Executable:   /opt/gromacs/2020.3/bin/gmx
+;	Data prefix:  /opt/gromacs/2020.3
+;	Working dir:  /home/marcello/Scrivania/polito/05-ALSIN/05-00-computational/05-00-03-MORN/
+;
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Ion.itp"
+
+; Include water topology
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Name
+STRUCTURAL PROTEIN in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Ion                 1
+SOL         43671
+NA               121
+CL               117

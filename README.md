@@ -22,7 +22,7 @@ The repository is organized in the following folders:
 
  * `Topologies/`
 
-  This folder contains the molecular topologies for the Alsin monomer, L-ALS and V-ALS conformations.
+  This folder contains the molecular topologies for the Alsin monomer (A-MORN), L-ALS and V-ALS conformations.
 
  * `SimulationInput/`
 

@@ -1,0 +1,29 @@
+;
+;	File 'topol_Ion.itp' was generated
+;	By user: marcello (1000)
+;	On host: marcello-A51M
+;	At date: Mon Mar 14 19:15:16 2022
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2020.3 (-:
+;	
+;	Executable:   /opt/gromacs/2020.3/bin/gmx
+;	Data prefix:  /opt/gromacs/2020.3
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion                 3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 401 ZN  rtp ZN   q +2.0
+     1         Zn    401     ZN     ZN      1          2       65.4   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion.itp"
+#endif
+
